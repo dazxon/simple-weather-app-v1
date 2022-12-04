@@ -48,7 +48,7 @@ const ForecastWeather = ({ forecast }) => {
 
     for (let i = 0; i < 5; i++) {
       result.push(
-        <div className="weather-bottom-container scale-up-center">
+        <div className="weather-bottom-container scale-up-center" key={i}>
           <h3 className="weather-bottom-day">
             {getDay(forecast.list[i * 8].dt_txt)}
             {" "}
