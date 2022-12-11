@@ -1,7 +1,7 @@
 
 # simple-weather-app v1.0
 
-A simple weather App using GeoDB from RapidApi and Weather Api from OpenWeatherMap
+A simple weather App using GeoDB from RapidApi and Weather Api from OpenWeatherMap.org
 
 ## Demo
 
